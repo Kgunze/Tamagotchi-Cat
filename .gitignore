@@ -1,0 +1,13 @@
+[Libraries]
+/Library/
+[Temporary files]
+/Temp/
+[Build files]
+/Builds/
+[Unity auto-generated files]
+/Logs/
+[VSCode or IDE-specific files]
+*.csproj
+*.sln
+*.userprefs
+
