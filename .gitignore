@@ -1,3 +1,4 @@
+# Unity-generated folders
 [Libraries]
 /Library/
 [Temporary files]
@@ -6,8 +7,61 @@
 /Builds/
 [Unity auto-generated files]
 /Logs/
-[VSCode or IDE-specific files]
+
+# Visual Studio / VSCode files
 *.csproj
 *.sln
 *.userprefs
+.vscode/
+
+# Unity Cache files
+/obj/
+*.pidb
+*.booproj
+*.unityproj
+
+# Unity Asset Store tools
+/Assets/AssetStoreTools*
+
+# Crash reports
+sysinfo.txt
+
+# Exclude files created by Unity Editor
+*.swp
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Exclude files created by OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exclude files created by Git
+*.orig
+
+# Exclude files created by builds
+*.apk
+*.aab
+*.exe
+*.app
+*.ipa
+*.dll
+*.pdb
+*.mdb
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+*.ear
+
+# Exclude Unity-specific settings that should not be shared
+ProjectSettings/EditorBuildSettings.asset
+ProjectSettings/EditorSettings.asset
+ProjectSettings/UnityConnectSettings.asset
+
+# Uncomment the following line if you want to ignore all .meta files
+# *.meta
 
